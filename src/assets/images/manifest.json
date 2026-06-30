@@ -1,0 +1,28 @@
+{
+  "brand": "VOGUEZ",
+  "description": "Static image assets for the VOGUEZ e-commerce frontend. Use /assets/images/... paths in admin imageUrl fields when running the dev server.",
+  "hero": {
+    "file": "images/hero-banner.png",
+    "url": "/assets/images/hero-banner.png"
+  },
+  "logo": {
+    "file": "logo.svg",
+    "url": "/assets/logo.svg"
+  },
+  "categories": [
+    { "name": "Men", "file": "images/categories/men.jpg", "url": "/assets/images/categories/men.jpg" },
+    { "name": "Women", "file": "images/categories/women.jpg", "url": "/assets/images/categories/women.jpg" },
+    { "name": "Accessories", "file": "images/categories/accessories.jpg", "url": "/assets/images/categories/accessories.jpg" },
+    { "name": "New Arrivals", "file": "images/categories/new-arrivals.jpg", "url": "/assets/images/categories/new-arrivals.jpg" }
+  ],
+  "products": [
+    { "name": "Dress", "file": "images/products/dress.jpg", "url": "/assets/images/products/dress.jpg" },
+    { "name": "Blazer", "file": "images/products/blazer.jpg", "url": "/assets/images/products/blazer.jpg" },
+    { "name": "Sneakers", "file": "images/products/sneakers.jpg", "url": "/assets/images/products/sneakers.jpg" },
+    { "name": "Handbag", "file": "images/products/handbag.jpg", "url": "/assets/images/products/handbag.jpg" },
+    { "name": "Shirt", "file": "images/products/shirt.jpg", "url": "/assets/images/products/shirt.jpg" },
+    { "name": "Jeans", "file": "images/products/jeans.jpg", "url": "/assets/images/products/jeans.jpg" },
+    { "name": "Watch", "file": "images/products/watch.jpg", "url": "/assets/images/products/watch.jpg" },
+    { "name": "Coat", "file": "images/products/coat.jpg", "url": "/assets/images/products/coat.jpg" }
+  ]
+}
