@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { MessageCircle, X } from "lucide-react";
 import api from "../services/api";
 import "./AIWidget.css";
+import ChatbotIcon from "../assets/images/chatbot-icon.avif";
 
 interface ChatMessage {
     type: "user" | "bot";
@@ -155,7 +156,7 @@ export default function AIWidget(){
                 onClick={()=>setOpen(!open)}
                 aria-label={open ? "Close shopping assistant" : "Open shopping assistant"}
                 aria-expanded={open}
-            ><img src="/src/assets/images/chatbot-icon.avif" className="chatbot-icon"/>
+            ><img src={ChatbotIcon} className="chatbot-icon"/>
                 {open ? (
                     <X size={22} strokeWidth={2} aria-hidden="true" />
                 ) : (
