@@ -53,7 +53,7 @@ export default function Home() {
               to={`/products?category=${encodeURIComponent(category.name)}`}
               className="category-card"
             >
-              <img src={category.imageUrl} alt={category.name} />
+              <img src={`/images/categories/${category.imageUrl}`} alt={category.name} />
               <h3>{category.name}</h3>
             </Link>
           ))}

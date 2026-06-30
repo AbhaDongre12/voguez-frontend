@@ -47,7 +47,7 @@ export default function ProductDetails() {
     <div className="product-detail">
         <div className="product-image">
             <img
-                src={product.imageUrl}
+                src={`/images/products/${product.imageUrl}`}
                 alt={product.name}
                 width="400"
             />
