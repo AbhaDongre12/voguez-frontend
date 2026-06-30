@@ -1,4 +1,4 @@
-import "C:/Abha Intership/E-commerce website/frontend/src/App.css";
+import "../App.css";
 import { Routes, Route } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
