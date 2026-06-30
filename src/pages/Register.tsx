@@ -13,7 +13,7 @@ export default function Register(){
     const handleRegister=async(e:React.SubmitEvent)=>{
         e.preventDefault();
         try{
-            await api.post("https://localhost:7124/api/auth/register",
+            await api.post("/auth/register",
                 {
                     name,email,password,
                 }

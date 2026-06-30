@@ -15,7 +15,7 @@ export default function Login() {
   const handleLogin = async (e: React.SubmitEvent) => {
     e.preventDefault();
     try {
-      const response = await api.post("https://localhost:7124/api/auth/login", {
+      const response = await api.post("/auth/login", {
         email,
         password,
       });
