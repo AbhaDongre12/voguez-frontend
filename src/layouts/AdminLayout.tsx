@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   LayoutDashboard,
   Package,
@@ -42,17 +43,18 @@ export default function AdminLayout() {
             </NavLink>
           ))}
         </nav>
+        <Link to="/login">
         <button
           className="sidebar__logout"
           onClick={() => {
             localStorage.removeItem("token");
             localStorage.removeItem("user");
-            window.location.href = "/login";
           }}
         >
           <LogOut size={18} strokeWidth={1.75} aria-hidden="true" />
           Logout
         </button>
+        </Link>
       </aside>
       <main className="content">
         <Outlet />
