@@ -138,7 +138,7 @@ export default function AdminProducts() {
               <td>{product.quantity}</td>
               <td>
                 <img
-                  src={`/src/assets/images/products/${product.imageUrl}`}
+                  src={product.imageUrl}
                   alt={product.name}
                   width="80"
                   height="80"

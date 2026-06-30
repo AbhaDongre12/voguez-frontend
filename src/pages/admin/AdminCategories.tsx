@@ -105,7 +105,7 @@ export default function AdminCategories(){
                     pagination.paginatedItems.map(category=>(                        <tr key={category.id}>
                             <td>{category.id}</td>
                             <td>{category.name}</td>
-                            <td><img src={`/src/assets/images/categories/${category.imageUrl}`} alt={category.name} width="80" height="80" style={{objectFit:"cover",borderRadius:"8px"}}/></td>
+                            <td><img src={category.imageUrl} alt={category.name} width="80" height="80" style={{objectFit:"cover",borderRadius:"8px"}}/></td>
                             <td>
                                 <div className="table-actions">
                                 <button
