@@ -47,7 +47,7 @@ export default function AdminLayout() {
           onClick={() => {
             localStorage.removeItem("token");
             localStorage.removeItem("user");
-            window.location.href = "/api/login";
+            window.location.href = "/login";
           }}
         >
           <LogOut size={18} strokeWidth={1.75} aria-hidden="true" />
