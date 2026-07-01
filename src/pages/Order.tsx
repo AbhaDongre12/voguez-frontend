@@ -99,7 +99,7 @@ export default function Order(){
                 <h4>Items</h4>
                 {order.orderItems.map((item)=>(
                   <div key={item.id} className="order-item">
-                    <img src={`/src/assets/images/products/${item.product.imageUrl}`} alt={item.product.name} width="80"/>
+                    <img src={`/images/products/${item.product.imageUrl}`} alt={item.product.name} width="80"/>
                     <div>                   
                     <p>{item.product.name}</p>
                     <p>Quantity: {item.quantity}</p>
